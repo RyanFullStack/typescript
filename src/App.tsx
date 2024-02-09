@@ -1,3 +1,4 @@
+import Test from './Components/Test'
 import './App.css'
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <h1>TypeScript</h1>
+      <Test />
     </div>
   )
 }
