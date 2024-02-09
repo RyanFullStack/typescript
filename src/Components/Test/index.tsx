@@ -18,10 +18,7 @@ class UserAccount {
     }
 }
 
-const newAccount: UserAccount = {
-    name: 'John',
-    id: 1,
-}
+const newAccount: User = new UserAccount('John', 2)
 
 
 function Test() {
