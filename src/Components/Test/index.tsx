@@ -8,6 +8,21 @@ const newUser: User = {
     id: 1,
 }
 
+class UserAccount {
+    name: string;
+    id: number;
+
+    constructor(name: string, id: number) {
+        this.name = name
+        this.id = id
+    }
+}
+
+const newAccount: UserAccount = {
+    name: 'John',
+    id: 1,
+}
+
 
 function Test() {
 
@@ -16,6 +31,7 @@ function Test() {
         <>
         <h1>Test Component</h1>
         {newUser.name}
+        {newAccount.name}
         </>
     )
 }
